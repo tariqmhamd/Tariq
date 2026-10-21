@@ -1,0 +1,2 @@
+All 24 stock/portfolio cost-case rows match recovered summary: final values within $0.001; CAGR/drawdown within 0.000001 percentage points; identical transaction counts.
+All 60,288 daily stock and portfolio NAV observations match recovered corrected engine within $0.00001.

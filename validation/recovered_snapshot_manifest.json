@@ -1,0 +1,70 @@
+{
+  "config": {
+    "tickers": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "AMZN",
+      "GOOGL"
+    ],
+    "start": "2016-10-13",
+    "end": "2026-10-12",
+    "warmup_start": "2008-01-01",
+    "capital": 100000,
+    "strategy": "weekly_pullback",
+    "fee_bps": [
+      0,
+      10
+    ],
+    "tenkan": 9,
+    "kijun": 26,
+    "span_b": 52,
+    "displacement": 26,
+    "pullback_tolerance": 0.02,
+    "price_mode": "adjusted"
+  },
+  "python": "3.12.14",
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "yfinance": "0.2.66",
+    "exchange-calendars": "4.13.2"
+  },
+  "created_utc": "2026-10-21T16:29:23.980622+00:00",
+  "inputs": {
+    "AAPL.csv": "a3115e4b75a4036102ec079d22b8fd3fc8d2fbe43a58c7bb61d6584b5bc19c17",
+    "MSFT.csv": "bcca342073b83a4bdf83509d1fb7c49f56527287d68d052e1624669b7f900383",
+    "NVDA.csv": "b73afef7901a4505eebbebacd01458c71bdf806701bb0393267ac76b78dfb77f",
+    "AMZN.csv": "336821708c269941723e12d132ea0dd6415b4ac0e093619e4431a9f984804963",
+    "GOOGL.csv": "45dc23891dfa4ea1e35368b376b429de1864cd522f5644b17e35e1dd026a4ed1"
+  },
+  "code": {
+    "__init__.py": "52dd6c0beb9353cd2779f4eae56277ab1e411f5c26de654d6c56b3f3bf4c1a9f",
+    "core.py": "280b7c862de190bd2c4f6e372945fbeafd5e75f22b2ac81136134ca73b1e68d1",
+    "__main__.py": "5c559c5265cdb71fece05871f893207d4fb91538eef0fe0b235ed5708e7bce88"
+  },
+  "actual_start": "2016-10-13 00:00:00",
+  "actual_end": "2026-10-12 00:00:00",
+  "dividend_method": "adjusted OHLC total-return proxy; no additional dividend cash",
+  "outputs": {
+    "AAPL_monthly.csv": "0b6522bf13ec53b71f92e987f58ba0cc68171cf2cd93a314b7e9f5b6281d1bf4",
+    "MSFT_monthly.csv": "22e8f6dc2c68c4db8fb86d88b7dd0173bbe7f9974d201f61ad93a20653fbb0e9",
+    "AAPL_weekly.csv": "cc0298fe3083f3335e37171b7ee1607a519d0bfdb718b23c709a569f18f482a7",
+    "MSFT_weekly.csv": "489c0a0f518fd3f5a0ab75ac39651ced27e77ea251133c124d01cf2b9cc056c7",
+    "AMZN_weekly.csv": "ea1b37043645b21aa6b26a24ef6e3bed72b536bd92b65271a1f02203998be1d8",
+    "MSFT_orders.csv": "5000b655be16e53ac76202598e6e20e657bd259d885b4f0f3f60bf71e63d8ce6",
+    "summary.csv": "1e901185f586f07ffbf1685a53de675a3543fe5cb678585d25ec563e62f080ea",
+    "NVDA_weekly.csv": "7da6f759ad7ed664f7821ad9335d20567c0a82d754f674c3a21e5eb37de4f5c4",
+    "GOOGL_orders.csv": "cc86279549175f449ff22ec786640ed8431ce23e29746efe29917c34bdb41abb",
+    "GOOGL_weekly.csv": "f7b7985f1d125cc6e75a86626a121aea4049422c3b38c88c8efe993be0fe916f",
+    "AMZN_monthly.csv": "f239e89d073f67cf39b65329edbd526c645a7fcd8ddbf7a91da32af63f1d632d",
+    "AMZN_orders.csv": "1c68799fb1f1e5dd5a87115448a1f242052b3f7fee51fba26cc8064689256adc",
+    "equity.csv": "0333600793f5828c193704d3382d4f37b4b35eba66b48a8a981ac9394aca68e2",
+    "NVDA_monthly.csv": "6c261a39f284e144b9415012d0292a6bb0169a18ec9db6e3a702e5fed7eed0fc",
+    "transactions.csv": "6f1384c6f4b9c99d15a0ad3a0bbe92ff8f0deb0bcfbee5d05e463eca4eca478c",
+    "NVDA_orders.csv": "4b001886110db09c9eddfa52b4e5ec3a37ec30b6a38b904569b9000cdbe0e117",
+    "GOOGL_monthly.csv": "500724e583226d1c3429a0c277835a0b01f66b625b7437d500f80ed4b76ee8ae",
+    "AAPL_orders.csv": "9045c5c889187dc9afefe6e6808ed2f575dee16d638356e6de6937244d5cf7a0",
+    "holdings.csv": "fb12241fc19a4338cae2f1a51044da8177174e5fbdbbc6b4acacf5c60e48c1b2"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "GOOGL"
+  ],
+  "start": "2016-10-13",
+  "end": "2026-10-12",
+  "warmup_start": "2008-01-01",
+  "capital": 100000,
+  "strategy": "weekly_cross",
+  "fee_bps": [
+    0,
+    10
+  ],
+  "tenkan": 9,
+  "kijun": 26,
+  "span_b": 52,
+  "displacement": 26,
+  "pullback_tolerance": 0.02,
+  "price_mode": "adjusted"
+}
