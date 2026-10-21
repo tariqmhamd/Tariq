@@ -1,0 +1,17 @@
+test_download_contract (test_cli.InputTests.test_download_contract) ... ok
+test_missing_terminal_session_fails (test_cli.InputTests.test_missing_terminal_session_fails) ... ok
+test_dividend_adjusted_proxy (test_core.AccountingTests.test_dividend_adjusted_proxy) ... ok
+test_first_day_loss_in_drawdown (test_core.AccountingTests.test_first_day_loss_in_drawdown) ... ok
+test_roundtrip_costs_and_cash_reconciliation (test_core.AccountingTests.test_roundtrip_costs_and_cash_reconciliation) ... ok
+test_same_day_signal_is_rejected (test_core.AccountingTests.test_same_day_signal_is_rejected) ... ok
+test_cloud_requires_both_spans (test_core.TimingTests.test_cloud_requires_both_spans) ... ok
+test_false_monthly_filter_replaces_true (test_core.TimingTests.test_false_monthly_filter_replaces_true) ... ok
+test_future_perturbation_does_not_change_orders_or_nav (test_core.TimingTests.test_future_perturbation_does_not_change_orders_or_nav) ... ok
+test_july_close_executes_august (test_core.TimingTests.test_july_close_executes_august) ... ok
+test_missing_duplicate_prices_rejected (test_core.TimingTests.test_missing_duplicate_prices_rejected) ... ok
+test_unfinished_terminal_month_and_week (test_core.TimingTests.test_unfinished_terminal_month_and_week) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 5.306s
+
+OK
